@@ -1,0 +1,11 @@
+{% extends "home.html" %}
+
+{% block content %}
+	<div class="results">	
+	{%if pred[0] == 1%}
+	<h2 style="color:red;">Spam</h2>
+	{%elif pred[0] == 0%}
+	<h2 style="color:blue;">Not a Spam (It is a Ham)</h2>
+	{%endif%}
+	</div>
+{% endblock %}
