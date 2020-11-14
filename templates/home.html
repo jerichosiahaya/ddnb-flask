@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Depression Detection using Naive Bayes</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" type="=text/css" href="{{ url_for('static', filename='style.css') }}">
+<style>
+  html, body {
+    margin-top: 2em;
+}
+
+form-control {
+    width: 20%;
+}
+
+.result {
+    margin-top: 3em;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width: auto;
+ }
+
+.sidenav .title {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .sub-title {
+    margin-bottom: 4em;
+  }
+</style>
+</head>
+<body>
+
+  <div class="sidenav">
+    <a href="" class="title"><h2>DDNB</h2></a>
+    <a href="https://www.google.com/" target="_blank">About</a>
+    <a href="#services">Github Repository</a>
+  </div>
+
+<div class="container">
+  <div class="sub-title">
+  <p><h4>Depression Detection Naive Bayes</h4></p>
+  <p>A machine learning model to predict depression based on text using naive bayes method.</p>
+  </div>
+  <div class="main">
+    <form action="home.html" method = "post">
+      <input type="text" class="form-control" placeholder="Type some text. . ." name="search"> <br>
+      <button type="submit" class="btn btn-primary float-right">PREDICT</button>
+    </form>
+    <div class="result">
+      <p>Original Text: <b>{{ original_text }}</b></p>
+      <p>Prediction:  <b>{{ result_class }}</b></p>
+      <p>Probability: <b>{{ probability }}</b></p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+<footer class="page-footer font-small teal pt-4">
+  <hr>
+  <p>© 2020 Group G - IF 534 Artificial Intelligence. All Rights Reserved.</p>
+</footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
