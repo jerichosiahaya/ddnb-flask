@@ -2,13 +2,10 @@ aiodns==2.0.0
 aiohttp==3.6.2
 aiohttp-socks==0.4.1
 altgraph==0.17
-anaconda-client==1.7.2
-anaconda-navigator==1.9.12
 appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1603108395799/work
 argon2-cffi @ file:///C:/ci/argon2-cffi_1596828549974/work
 async-timeout==3.0.1
 attrs @ file:///tmp/build/80754af9/attrs_1600298409949/work
-audioread==2.1.9
 auto-py-to-exe==2.7.8
 av==8.0.2
 backcall==0.2.0
@@ -28,8 +25,6 @@ chardet==3.0.4
 click==7.1.2
 clyent==1.2.2
 colorama @ file:///tmp/build/80754af9/colorama_1603211150991/work
-conda==4.9.2
-conda-build==3.18.11
 conda-package-handling @ file:///C:/ci/conda-package-handling_1603018162806/work
 conda-verify==3.4.2
 cryptography @ file:///C:/ci/cryptography_1601046913206/work
@@ -47,7 +42,6 @@ Flask==1.1.2
 future==0.18.2
 geographiclib==1.50
 geopy @ file:///home/conda/feedstock_root/build_artifacts/geopy_1593296620954/work
-GetOldTweets3==0.0.11
 gevent-websocket==0.10.1
 glob2==0.7
 googletrans==2.4.0
@@ -119,7 +113,6 @@ pyparsing==2.4.7
 pyquery==1.4.1
 pyrsistent @ file:///C:/ci/pyrsistent_1600123688363/work
 PySocks==1.7.1
-PySoundFile==0.9.0.post1
 python-dateutil==2.8.1
 pytz==2020.1
 pywin32==227
@@ -138,7 +131,6 @@ scipy @ file:///C:/bld/scipy_1604305143982/work
 seaborn @ file:///tmp/build/80754af9/seaborn_1600553570093/work
 Send2Trash==1.5.0
 six==1.15.0
-SoundFile==0.10.3.post1
 soupsieve==2.0.1
 terminado==0.9.1
 testpath==0.4.4
@@ -147,9 +139,6 @@ threadpoolctl @ file:///tmp/tmp79xdzxkt/threadpoolctl-2.1.0-py3-none-any.whl
 tornado==6.0.4
 tqdm @ file:///tmp/build/80754af9/tqdm_1602185206534/work
 traitlets @ file:///tmp/build/80754af9/traitlets_1602787416690/work
-tweepy @ file:///home/conda/feedstock_root/build_artifacts/tweepy_1594498408379/work
-tweet-preprocessor==0.6.0
-twint==2.1.20
 typing-extensions==3.7.4.3
 urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
