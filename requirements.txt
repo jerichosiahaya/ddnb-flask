@@ -38,7 +38,6 @@ ipython-genutils==0.2.0
 itsdangerous==1.1.0
 Jinja2==2.11.2
 joblib==0.17.0
-json5==0.9.5
 menuinst==1.4.16
 mkl-fft==1.2.0
 mkl-random==1.1.1
