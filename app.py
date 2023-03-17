@@ -27,11 +27,9 @@ def get_data():
         some_text = "Probability: "
         if result == 1:
             text_positive = "Not depressed"
-            #return "Not depressed<br>Probability: " + str(prob)
             return render_template('home.html', probability = prob, result_class = text_positive, def_text = some_text, original_text = text)
         else:
             text_negative = "Depressed"
-            #return "Depressed<br>Probability: " + str(prob)
             return render_template('home.html', probability = prob, result_class = text_negative, def_text = some_text, original_text = text)
 
 
